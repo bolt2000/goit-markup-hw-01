@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="images/icons" sizes="96x96" rel="icon" href="/images/icons/icons8-keyshot-96.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Головна</title>
   </head>
   <body>
     <!-- The logo  -->
     <header>
       <nav>
-        <a href="/index.html"> WebStudio </a>
-
+        <a class="logo" href="index.html"> WebStudio </a>
         <ul>
           <li><a href="/index.html" class="nav-link">Студія</a></li>
           <li><a href="/index.html" class="nav-link">Портфоліо</a></li>
@@ -23,76 +30,101 @@
         </ul>
       </nav>
     </header>
-
+    <!-- Основное -->
     <main>
       <!--Hero -->
       <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
         <button type="button">Замовити послугу</button>
       </section>
-    </main>
-
-    <div>
       <!--specials-->
-      <h2 hidden>особливості</h2>
-      <ul>
-        <li>
-          <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-          <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-        </li>
-        <li>
-          <h3>ПУНКТУАЛЬНІСТЬ</h3>
-          <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-        </li>
-        <li>
-          <h3>ПЛАНУВАННЯ</h3>
-          <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-        </li>
-        <li>
-          <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-          <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-        </li>
-      </ul>
-    </div>
-
-    <div>
-      <h2>Чим ми займаємося</h2>
-      <span>
-        <img src="images/box1.jpg" alt="programmer-working" class="box" width="370" height="294" />
-        <img src="images/box2.jpg" alt="develop-app-smart" class="box" width="370" height="294" />
-        <img src="images/box3.jpg" alt="creative-Web-desing" class="box" width="370" height="294" />
-      </span>
-    </div>
-
-    <div>
       <section>
-        <!--us team-->
-        <h2>Наша команда</h2>
-        <img src="images/team1.jpg" alt="team1" class="photo_team" width="270" height="260" />
-        <p>Ігор Дем'яненко</p>
-        <p>Product Designer</p>
-
-        <img src="images/team2.jpg" alt="team2" class="photo_team" width="270" height="260" />
-        <p>Ольга Рєпіна</p>
-        <p>Frontend Developer</p>
-
-        <img src="images/team3.jpg" alt="team3" class="photo_team" width="270" height="260" />
-        <p>Микола Тарасов</p>
-        <p>Marketing</p>
-
-        <img src="images/team4.jpg" alt="team4" class="photo_team" width="270" height="260" />
-        <p>Михайло Єрмаков</p>
-        <p>UI Designer</p>
+        <h2 hidden>особливості</h2>
+        <ul>
+          <li>
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+          </li>
+          <li>
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+          </li>
+          <li>
+            <h3>ПЛАНУВАННЯ</h3>
+            <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+          </li>
+          <li>
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+          </li>
+        </ul>
       </section>
-    </div>
-
+      <!--Займаемося-->
+      <section>
+        <h2>Чим ми займаємося</h2>
+        <img src="images/box/box1.jpg" alt="Десктопні додатки" class="box" width="370" />
+        <img src="images/box/box2.jpg" alt="мобільні додатки" class="box" width="370" />
+        <img src="images/box/box3.jpg" alt="дизайнерські рішення" class="box" width="370" />
+      </section>
+      <!--us team-->
+      <section>
+        <h2>Наша команда</h2>
+        <ul>
+          <li>
+            <img
+              src="images/team/team1.jpg"
+              alt="Ігор Дем'яненко"
+              class="photo_team"
+              width="270"
+              height="260"
+            />
+            <h3>Ігор Дем'яненко</h3>
+            <p lang="en">Product Designer</p>
+          </li>
+          <li>
+            <img
+              src="images/team/team2.jpg"
+              alt="Ольга Рєпіна"
+              class="photo_team"
+              width="270"
+              height="260"
+            />
+          </li>
+          <h3>Ольга Рєпіна</h3>
+          <p lang="en">Frontend Developer</p>
+          <li>
+            <img
+              src="images/team/team3.jpg"
+              alt="Микола Тарасов"
+              class="photo_team"
+              width="270"
+              height="260"
+            />
+            <h3>Микола Тарасов</h3>
+            <p lang="en">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="images/team/team4.jpg"
+              alt="Михайло Єрмаков"
+              class="photo_team"
+              width="270"
+              height="260"
+            />
+            <h3>Михайло Єрмаков</h3>
+            <p lang="en">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Подвал -->
     <footer>
       <!--Address-->
-      <h2>WebStudio</h2>
-      <p>м. Київ, пр-т Лесі Українки, 26</p>
+      <h2 class="logo" lang="en">WebStudio</h2>
+      <address>м. Київ, пр-т Лесі Українки, 26</address>
       <address>
         <p><a href="mailto:binfo@devstudio.com">info@devstudio.com </a></p>
-        <p><a href="tel:+380961111111">+38 096 111 11 11</a></p>
+        <a href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
