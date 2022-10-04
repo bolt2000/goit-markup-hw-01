@@ -2,10 +2,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.main {
-  width: 1600px;
-  margin: 0 auto;
-}
+/* .main {
+  /* width: 1600px;
+  /* margin: 0 auto;
+} */
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -19,7 +20,6 @@ body {
 }
 
 .top-menu {
-
   width: 1600px;
   height: 80px;
   left: 10px;
@@ -38,39 +38,6 @@ body {
   font-size: 18px;
   text-align: center;
   position: relative;
-}
-
-.nav-link1 {
-  position: absolute;
-  width: 45px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-}
-.nav-link2 {
-  position: absolute;
-  width: 72px;
-  height: 16px;
-  left: 548px;
-  top: 32px;
-}
-.nav-link3 {
-  position: absolute;
-  width: 64px;
-  height: 16px;
-  left: 670px;
-  top: 32px;
-}
-.nav-link1,
-.nav-link2,
-.nav-link3 {
-  text-decoration: none;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
 }
 
 .link1 {
@@ -109,12 +76,11 @@ body {
   background-color: #2f303a;
   color: white;
 }
-.button {
-  background-color: #2196f3;
-  color: white;
-}
+/* .button {
+  /* background-color: #2196f3;
+  /* color: white;
+} */
 
 .photo {
   font-family: 'Roboto', sans-serif;
 }
-
